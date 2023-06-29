@@ -1,0 +1,19 @@
+current directory: /Users/ryoyaokuma/workspace/runteq/rails_tutorial/environment/toy_app/vendor/bundle/ruby/3.1.0/gems/io-console-0.6.0/ext/io/console
+/Users/ryoyaokuma/.rbenv/versions/3.1.2/bin/ruby -I /Users/ryoyaokuma/.rbenv/versions/3.1.2/lib/ruby/3.1.0 -r ./siteconf20230630-17733-x2oa1c.rb extconf.rb
+checking for termios.h... yes
+checking for cfmakeraw() in termios.h... yes
+checking for sys/ioctl.h... yes
+checking for HAVE_RUBY_FIBER_SCHEDULER_H... yes
+creating Makefile
+
+current directory: /Users/ryoyaokuma/workspace/runteq/rails_tutorial/environment/toy_app/vendor/bundle/ruby/3.1.0/gems/io-console-0.6.0/ext/io/console
+make DESTDIR\= clean
+
+current directory: /Users/ryoyaokuma/workspace/runteq/rails_tutorial/environment/toy_app/vendor/bundle/ruby/3.1.0/gems/io-console-0.6.0/ext/io/console
+make DESTDIR\=
+compiling console.c
+linking shared-object io/console.bundle
+
+current directory: /Users/ryoyaokuma/workspace/runteq/rails_tutorial/environment/toy_app/vendor/bundle/ruby/3.1.0/gems/io-console-0.6.0/ext/io/console
+make DESTDIR\= install
+/opt/homebrew/bin/ginstall -c -m 0755 console.bundle ./.gem.20230630-17733-m1lr9z/io
